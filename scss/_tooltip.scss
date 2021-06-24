@@ -52,7 +52,7 @@
     margin-left: -0.75rem;
     > .content {
       &:before {
-        @include addPreston('../images/preston-right.png', 5.5rem, 9.5625rem, 3.8125rem);
+        @include addPreston('../images/preston-right.png', 5.5rem, 9.5625rem, -3.8125rem);
       }
     }
     &:after {
@@ -65,7 +65,7 @@
   }
 
   &.-right {
-    margin-left: 4.3125rerm;
+    margin-left: 4.3125rem;
     > .content {
       &:before {
         @include addPreston('../images/preston-left.png', 6.5rem, 9.5625rem, -4.375rem);
